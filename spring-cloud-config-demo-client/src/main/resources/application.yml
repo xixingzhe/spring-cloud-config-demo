@@ -5,6 +5,9 @@ endpoints:
     enabled: true
 server:
   port: 8080
+management:
+  security:
+    enabled: false
 logging:
   file: /opt/logs/spring-cloud-config-demo-client.log
   levels:

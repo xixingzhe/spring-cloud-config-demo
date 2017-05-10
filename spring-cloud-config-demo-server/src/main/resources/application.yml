@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: git@github.com:nobodyiam/config-repo.git
+          uri: https://git.oschina.net/xixingzhe2/config.git
 
 server:
   port: 8888

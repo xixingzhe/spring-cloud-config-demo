@@ -12,7 +12,6 @@ import org.springframework.web.servlet.view.JstlView;
 /**
  * Created by Jason on 7/5/15.
  */
-@Configuration
 @EnableWebMvc
 public class WebConfig extends WebMvcConfigurerAdapter {
     @Override

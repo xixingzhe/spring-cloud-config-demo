@@ -1,15 +1,13 @@
 package com.nobodyiam.spring.cloud.config.demo.server;
 
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.config.server.EnableConfigServer;
-import org.springframework.context.annotation.Configuration;
 
 /**
  * Created by Jason on 2/24/16.
  */
-@Configuration
-@EnableAutoConfiguration
+@SpringBootApplication
 @EnableConfigServer
 public class ConfigServerApplication {
 
