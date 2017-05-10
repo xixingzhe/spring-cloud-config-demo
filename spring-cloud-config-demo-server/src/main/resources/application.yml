@@ -6,6 +6,5 @@ spring:
       server:
         git:
           uri: https://git.oschina.net/xixingzhe2/config.git
-
 server:
   port: 8888
