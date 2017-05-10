@@ -1,5 +1,3 @@
-info:
-  component: Config Server
 spring:
   application:
     name: configserver
