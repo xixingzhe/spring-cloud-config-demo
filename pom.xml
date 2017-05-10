@@ -14,7 +14,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.src.version>${java.version}</java.src.version>
 		<java.target.version>${java.version}</java.target.version>
-		<spring-cloud-config.version>1.3.0.RELEASE</spring-cloud-config.version>
 	</properties>
 
 	<parent>
