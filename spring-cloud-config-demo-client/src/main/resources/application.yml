@@ -1,15 +1,8 @@
-info:
-  component: Config Samples
-endpoints:
-  restart:
-    enabled: true
 server:
   port: 8080
 management:
   security:
     enabled: false
 logging:
-  file: /opt/logs/spring-cloud-config-demo-client.log
-  levels:
-    org.springframework.boot.env.PropertySourcesLoader: TRACE
-    org.springframework.web: DEBUG
+  level:
+    root: info
